@@ -1,4 +1,5 @@
 (defpackage :de.halcony.projects.cl-util.control-flow
-  (:nicknames :cl-cf-util)
+  (:use :cl :cl-user)
+  (:nicknames :cf-util)
   (:export aif
            secase))
